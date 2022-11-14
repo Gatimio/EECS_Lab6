@@ -1,0 +1,72 @@
+body,html {
+    margin: 0;
+    font: bold 14px/1.4 'Open Sans', Georgia, Serif;
+    background: rgb(110, 110, 110);
+}
+ul { 
+    margin: 50px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 800px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ol {
+    margin-left: 40%;
+}
+
+#hypeLi { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+}
+#hype {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+}
+#hype:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+#hype:hover:after { 
+    width: 100%; 
+    left: 0;
+}
+
+.submitbtn {
+    margin-left: 50%;
+    margin-top: 50px;
+}
+ #page-wrap{
+    text-align: center;
+ }
+
+ h2{
+    text-transform: uppercase;
+    padding-top: 15px;
+    font: bold 20px/1.4 'Open Sans', Georgia, Serif;
+ }
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
