@@ -1,0 +1,97 @@
+td {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  body {
+    background-color: gray;
+  }
+  
+  h1 {
+    font: bold 25px/1.4 'Open Sans', Georgia, Serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+  }
+  
+  h2 {
+    font: bold 20px/1.4 'Open Sans', Georgia, Serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+  }
+  
+  h3 {
+    font: bold 15px/1.4 'Open Sans', Georgia, Serif;
+    text-transform: uppercase;
+    margin-left: 20%;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+  }
+
+  #buttonLay{
+    margin-left: 20%;
+  }
+
+  figcaption {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .shippingForm{
+    margin-left: 20%;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 20px;
+  }
+  .orderForm {
+    font-weight: bold;
+    margin-left: 20%;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+  }
+  
+  .shippingForm {
+    font-weight: bold;
+  }
+  
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table.backend td {
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: white;
+    padding: 8px;
+  }
+  
+  table.backend th {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: silver;
+    padding: 8px;
+  }
+  
+  h2.center {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+  }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Store</title>
+    <link href="wsstyle.css" rel="stylesheet" type="text/css" />
+    <script src="webStore.js"></script>
+    <link rel="stylesheet" href="header.css">
+        <title>Homepage</title>
+        <header>
+          <ul>
+              <li id="hypeLi"><a href="https://people.eecs.ku.edu/~c045g154/Lab6/index.html" id="hype">Homepage</a></li>
+              <li id="hypeLi"><a href="https://people.eecs.ku.edu/~c045g154/Lab6/multiTable.php" id="hype">Multiplication Table</a></li>
+              <li id="hypeLi"><a href="https://people.eecs.ku.edu/~c045g154/Lab6/quiz.html" id="hype">Quiz</a></li>
+              <li id="hypeLi"><a href="https://people.eecs.ku.edu/~c045g154/Lab6/webStore.html" id="hype">Web Store</a></li>
+          </ul>
+      </header>
+  </head>
+  <body>
+    <h1>Welcome to Decor.co!</h1>
+    <h2>Available Items</h2>
+    <table>
+        <tr>
+         <td>
+            <figure>
+                <img src="Vases.jpeg" width="325" height="300"/>
+                <figcaption>Vase set: $179</figcaption>
+            </figure>
+        </td>
+         <td>
+            <figure>
+                <img src="wall-lemp.jpg" width="325" height="300"/>
+                <figcaption>Wall Lamp: $82</figcaption>
+            </figure>
+        </td>
+         <td>
+            <figure>
+                <img src="mugs.jpeg" width="300" height="300"/>
+                <figcaption>Mug: $31</figcaption>
+            </figure>
+        </td>
+        </tr>
+    
+    <table>
+    <h3>Order Form</h3>
+    <form
+      action="webStore.php"
+      method="POST"
+      onsubmit="return checker()"
+    >
+      <div class="orderForm">
+        Username :
+        <input type="text" id="username" name="username" /> <br>
+        Password:
+        <input type="password" id="password" name="password" min="0"/> <br>
+        Number of Vases set:
+        <input type="number" id="vaseSet" name="vaseSet" min="0"/><br>
+        Number of Wall Lamp:
+        <input type="number" id="wallLamp" name="wallLamp" min="0"/><br>
+        Number of Mug:
+        <input type="number" id="mug" name="mug" /><br>
+      </div>
+      <h3>Shipping Options:</h3>
+      <div class="shippingForm">
+        <input type="radio" name="shipping" value="sevenDay" />Free 7 day <br>
+        <input type="radio" name="shipping" value="threeDay" />$5.00 3 day
+        <br>
+        <input type="radio" name="shipping" value="overNight" />$50.00 overnight
+        <br>
+      </div>
+      <br>
+      <div id="buttonLay">
+        <input type="reset" value="Reset Form" />
+        <input type="submit" value="Submit Order" />
+      </div>
+    </form>
+  </div>
+</html>
